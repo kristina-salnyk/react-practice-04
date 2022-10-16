@@ -29,6 +29,8 @@ function getIcon(title) {
       return <FaRegThumbsUp />;
     case 'Saved Trees':
       return <GiTreeDoor />;
+    default:
+      return null;
   }
 }
 
